@@ -71,3 +71,24 @@ img {
   position: absolute;
   right: -168px;
 }
+.promo {
+  padding-top: 186px;
+  padding-bottom: 186px;
+}
+.promo-left,
+.promo-right {
+  flex: 0 0 49%;
+  color: #fff;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo-left {
+  background-image: url(../image/promo-left.png);
+  padding: 116px 50px;
+}
+.promo-right {
+  background-image: url(../image/promo-right.png);
+  padding: 102px 50px;
+}
